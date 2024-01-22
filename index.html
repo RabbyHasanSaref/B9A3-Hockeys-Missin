@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockeys</title>
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- tailwind-css and daisy-ul link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body style="font-family: 'Manrope', sans-serif;">
+    <!-- header area -->
+    <header class="container lg:py-5 py-2 px-5 mx-auto">
+        <!-- navbar section start style-->
+        <nav class="flex lg:justify-between justify-evenly items-center">
+            <div class="dropdown lg:hidden">
+                <div>
+                    <button class="btn btn-square btn-ghost">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-5 h-5 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                    </button>
+                </div>
+                <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-[275px]">
+                    <li class="ml-7"><a href="">Home</a></li>
+                    <li class="ml-7"><a href="">About</a></li>
+                    <li class="ml-7"><a href="">Pages</a></li>
+                    <li class="ml-7"><a href="">Blog</a></li>
+                    <li class="ml-7"><a href="">Contact</a></li>
+                </ul>
+              </div>
+            <h2 class="text-black lg:text-3xl text-2xl font-extrabold mr-8">Hockey<span class="&nbsp; text-[#FF4240]">’</span>s</h2>
+            <ul class="lg:flex hidden">
+                <li class="ml-7 text-[16px] font-bold text-[#FF4240]"><a href="">Home</a></li>
+                <li class="ml-7 text-[16px] font-bold "><a href="">About</a></li>
+                <li class="ml-7 text-[16px] font-bold "><a href="">Pages</a></li>
+                <li class="ml-7 text-[16px] font-bold "><a href="">Blog</a></li>
+                <li class="ml-7 text-[16px] font-bold "><a href="">Contact</a></li>
+            </ul>
+            <div class="flex items-center">
+                <div class="lg:flex lg:items-center hidden mr-2 w-6 h-6 text-[#89898b] cursor-pointer">
+                    <i class="fa fa-magnifying-glass"></i>
+                </div>
+                <button class="lg:py-3 py-2 lg:px-6 px-2 rounded-lg bg-[#FF4240] text-white font-bold text-sm">Get Ticket</button>
+            </div>
+        </nav>
+        <!-- navbar section end style-->
+
+        <!-- banner section start style -->
+        <div class="carousel container lg:mt-[50px] mt-[30px]">
+            <div id="slide1" class="carousel-item relative w-full ">
+              <img src="./Images/1.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide2" class="carousel-item relative w-full ">
+              <img src="./Images/1.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide3" class="carousel-item relative w-full ">
+              <img src="./Images/1.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+          </div>
+          <div class="lg:w-[500px] lg:h-[150px] w-[100%] h-[150px] relative left-0 top-0 bg-[#131318] lg:relative lg:left-[55%] lg:-top-52 rounded-2xl">
+                <div class="p-8  space-y-3 mt-5">
+                    <h3 class="lg:text-2xl text-xs font-extrabold text-white">Meet all the heroes from the field</h3>
+                    <p class="lg:text-base text-xs lg:font-medium font-light text-gray-500">Professional hockey developed in the United States and Canada around the turn of the 20th century.</p>
+                </div>
+          </div>
+            <!-- banner section end style -->
+    </header>
+
+    <!-- main area -->
+    <main class="container lg:py-5 py-2 px-5 mx-auto">
+        <!-- Professional Hockeys Club start -->
+        <section class="lg:-mt-24 mt-12">
+            <div class="lg:w-[600px] mx-auto text-center space-y-3">
+                <h2 class="text-[#131318] lg:text-4xl text-xl font-extrabold">Professional Hockeys Club</h2>
+                <p class="text-gray-500 lg:text-base text-xs font-medium">Professional hockey developed in the United States and Canada around the turn of the 20th century. Houghton, Michigan,</p>
+            </div>
+            <div class="lg:w-[1140px] lg:mx-auto">
+                <div class="flex lg:justify-evenly lg:items-center gap-5 mt-10 lg:flex-row flex-col">
+                    <div class="w-[250px] mx-auto text-center space-y-3">
+                        <div class="radial-progress text-orange-600" style="--value:87;" role="progressbar"><span class="text-[#131318] text-lg font-extrabold">87%</span></div>
+                        <h4 class="text-[#131318] text-xl font-semibold">Prayer Facility</h4>
+                        <p class="text-[#131318] text-base font-normal">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    </div>
+                    <div class="w-[250px] mx-auto text-center space-y-3">
+                        <div class="radial-progress text-[#49d293]" style="--value:95;" role="progressbar"><span class="text-[#131318] text-lg font-extrabold">95%</span></div>
+                        <h4 class="text-[#131318] text-xl font-semibold">Experienced Coach</h4>
+                        <p class="text-[#131318] text-base font-normal">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    </div>
+                    <div class="w-[250px] mx-auto text-center space-y-3">
+                        <div class="radial-progress text-[#ffb546]" style="--value:90;" role="progressbar"><span class="text-[#131318] text-lg font-extrabold">90%</span></div>
+                        <h4 class="text-[#131318] text-xl font-semibold">Senior Player</h4>
+                        <p class="text-[#131318] text-base font-normal">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    </div>
+                    <div class="w-[250px] mx-auto text-center space-y-3">
+                        <div class="radial-progress text-[#4c8df1]" style="--value:80;" role="progressbar"><span class="text-[#131318] text-lg font-extrabold">80%</span></div>
+                        <h4 class="text-[#131318] text-xl font-semibold">Training Ground</h4>
+                        <p class="text-[#131318] text-base font-normal">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+          <!-- Professional Hockeys Club end -->
+    </main>
+
+    <!-- footer area -->
+    <footer>
+
+    </footer>
+
+    <!-- Font Awesome link -->
+    <script src="https://kit.fontawesome.com/1133702304.js" crossorigin="anonymous"></script>
+</body>
+</html>
